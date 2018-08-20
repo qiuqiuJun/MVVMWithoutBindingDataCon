@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface HomeModel : NSObject
+//名字
 @property (nonatomic,strong)NSString *name;
+//年龄
 @property (nonatomic,assign)NSInteger age;
+//地址
 @property (nonatomic,strong)NSString *address;
 @end
